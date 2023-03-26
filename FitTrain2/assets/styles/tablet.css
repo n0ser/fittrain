@@ -1,0 +1,70 @@
+@media (max-width: 1440px){
+body .container{
+    width: 100%;
+}
+
+.present img{
+    width: 600px;
+    height: 400px;
+}
+
+.container .present {
+    width: 100%;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column-reverse;
+    gap: 40px;
+}
+
+.container .present--reverse{
+    flex-direction: column-reverse;
+}
+
+.container .present .present__text{
+    width: 600px;
+}
+
+.container .recomendation{
+    flex-wrap: wrap;
+    overflow-y: hidden;
+    width: 600px;
+    padding: 25px;
+}
+
+.container .prev, .container .next{
+    display: none;
+}
+
+.container .info{
+    flex-direction: column;
+    gap: 40px;
+}
+
+.container .about-info{
+    flex-direction: column;
+}
+
+.container .about-info__frame{
+    width: 600px;
+    height: 400px;
+}
+
+body .admin-form, body .user-form{
+    width: 600px;
+}
+
+body .coach-forms, body .category-forms{
+    flex-direction: column;
+}
+
+body .header{
+    flex-direction: column;
+    gap: 40px;
+}
+
+body .nav{
+    flex-direction: column;
+    align-items: center;
+}
+
+}

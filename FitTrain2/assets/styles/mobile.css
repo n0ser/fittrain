@@ -1,0 +1,85 @@
+@media (max-width: 350px){
+    .container .present img{
+        width: 280px;
+        height: 200px;
+    }
+
+    .container .present .present__text{
+        width: 280px;
+    }
+
+    .container .present{
+        width: 300px;
+    }
+
+    body .container .about-info__frame{
+        width: 300px;
+        height: 300px;
+    }
+
+    body .container .info__video{
+        width: 310px;
+        height: 250px;
+    }
+
+    body .container .info__description{
+        width: 300px;
+    }
+
+    body .container .recomendation{
+        flex-wrap: wrap;
+        width: 280px;
+        padding: 0px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    body .container .admin-form, body .container .user-form{
+        width: 270px;
+    }
+    
+
+}
+
+@media (max-width: 650px){
+    .present img{
+        width: 320px;
+        height: 260px;
+    }
+
+    .container--calc img{
+        width: 320px;
+    }
+
+    .container .present .present__text{
+        width: 320px;
+    }
+
+    .container .about-info__frame{
+        width: 330px;
+        height: 300px;
+    }
+
+    .container .recomendation{
+        flex-wrap: wrap;
+        overflow-y: hidden;
+        width: 300px;
+        padding: 25px;
+    }
+
+    .container .info__video{
+        width: 90%;
+        height: 250px;
+    }
+
+    .container .info__description{
+        width: 95%;
+    }
+
+    body .admin-form, body .user-form{
+        width: 300px;
+    }
+
+}
